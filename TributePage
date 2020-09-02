@@ -1,0 +1,16 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="main">
+  <article>
+    <h1 id="title">Dr. Norman Borlaug</h1>
+    <p>The man who saved a billion lives</p>
+    
+    <div id="img-div">
+      <img id="image" src="https://i.ytimg.com/vi/jANE8lpoj2c/sddefault.jpg">
+      <p id="img-caption">Kitten</p>
+      <p id="tribute-info">A kitten is a juvenile cat. After being born, kittens display primary altriciality and are totally dependent on their mother for survival. They do not normally open their eyes until after seven to ten days. After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and usually enjoy human companionship.</p>
+      
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/Kitten" target="_blank">Visit Kitten</a>
+           
+    </div>
+  </article>
+</main>
