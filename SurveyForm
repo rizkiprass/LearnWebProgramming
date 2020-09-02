@@ -1,0 +1,69 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class="container">
+  <header class="header">
+  <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform
+Name</p>
+  </header>
+  
+  <form id="survey-form">
+    
+    <div class="form-group">
+      <label for="name" id="name-label"><p>Name</p></label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email" id="email-label"><p>Email</p></label>
+      <input type="email" id="email" placeholder="Enter your name" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="number" id="number-label"><p>Age</p></label>
+      <input type="number" id="number" min="10" max="100" placeholder="Age" required>
+    </div>
+
+<!-- dropdown -->
+ <div class="form-group">
+  <p>Favorite Food</p>
+<select id="dropdown" name="food" class="form-control" required>
+  <option disabled selected value>Select an option</option>
+  <option value="pizza">Pizza</option>
+  <option value="salad">Salad</option>
+  <option value="noodle">Noodle</option>
+</select>
+
+<!-- radio button -->
+<div class="form-group">
+  <p>Pizza or Salad?</p>
+  <label><input name="choose-food" value="Pizza" type="radio" class="input-radio" checked />Pizza</label>
+  <label><input name="choose-food" value="Salad" type="radio" class="input-radio" />Salad</label>
+</div>
+
+<!-- checkbox button -->
+<div class="form-group">
+  <p>What is your hobby?<span class="clue">(Check all that apply)</span>
+  </p>
+  <label><input name"prefer" value="Soccer" type="checkbox" class="input-checkbox" />Soccer</label>
+  <label><input name"prefer" value="Basketball" type="checkbox" class="input-checkbox" />Basketball</label>
+  <label><input name"prefer" value="Swimming" type="checkbox" class="input-checkbox" />Swimming</label>
+  <label><input name"prefer" value="Tennis" type="checkbox" class="input-checkbox" />Tennis</label>
+  <label><input name"prefer" value="Run" type="checkbox" class="input-checkbox" />Run</label>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <p>Any comments or suggestions?</p>
+  <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here ..."></textarea>
+</div>
+
+<!-- Submitbutton -->
+<div>
+  <button type="submit" id="submit" class="submit-button">Submit</button>
+</div>
+
+ 
+  </form>
+  
+
