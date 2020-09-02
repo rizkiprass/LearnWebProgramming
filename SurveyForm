@@ -38,6 +38,7 @@ Name</p>
 <div class="form-group">
   <p>Pizza or Salad?</p>
   <label><input name="choose-food" value="Pizza" type="radio" class="input-radio" checked />Pizza</label>
+  </br>
   <label><input name="choose-food" value="Salad" type="radio" class="input-radio" />Salad</label>
 </div>
 
@@ -46,9 +47,13 @@ Name</p>
   <p>What is your hobby?<span class="clue">(Check all that apply)</span>
   </p>
   <label><input name"prefer" value="Soccer" type="checkbox" class="input-checkbox" />Soccer</label>
+   </br>
   <label><input name"prefer" value="Basketball" type="checkbox" class="input-checkbox" />Basketball</label>
+   </br>
   <label><input name"prefer" value="Swimming" type="checkbox" class="input-checkbox" />Swimming</label>
+  </br>
   <label><input name"prefer" value="Tennis" type="checkbox" class="input-checkbox" />Tennis</label>
+  </br>
   <label><input name"prefer" value="Run" type="checkbox" class="input-checkbox" />Run</label>
 </div>
 
